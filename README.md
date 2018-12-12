@@ -6,7 +6,7 @@
 3. tar xzf Python-3.6.7.tgz
 4. cd Python-3.6.7
 5. ./configure --enable-optimizations
-6. make altinstall // **avoid new version substituting old version**
+6. make altinstall // *avoid new version substituting old version*
 7. cd /usr/bin
 8. ln -s /usr/src/Python-3.6.7/python python3
 9. python3 -v
