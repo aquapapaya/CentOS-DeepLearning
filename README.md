@@ -1,4 +1,4 @@
-# CentOS-DeepLearning
+# CentOS 7-DeepLearning
 ## Install Python3.6
 > using root to install python
 1. cd /usr/src
