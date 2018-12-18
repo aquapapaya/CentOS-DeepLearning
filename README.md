@@ -15,3 +15,20 @@
 1. curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 2. python get-pip.py
 3. pip3 --version
+## Install GCC 6.4.0
+> using root to install GCC
+1. wget ftp://ftp.yzu.edu.tw/gnu/gcc/gcc-6.4.0/gcc-6.4.0.tar.gz
+2. tar xzf gcc-6.4.0.tar.gz
+3. cd gcc-6.4.0
+4. ./contrib/download_prerequisites
+5. cd ..
+6. mkdir build_gcc-6.4.0
+7. cd build_gcc-6.4.0
+8. ../gcc-6.4.0/configure --prefix=/usr/local/gcc-6.4.0 --disable-multilib
+9. make
+10. make install
+11. cd /usr/bin
+12. ln -s /usr/local/gcc-6.4.0/bin/gcc gcc640
+13. ln -s /usr/local/gcc-6.4.0/bin/g++ g++640
+14. gcc640 --version
+15. g++640 --version
