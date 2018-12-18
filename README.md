@@ -33,8 +33,8 @@
 14. gcc640 --version
 15. g++640 --version
 ----------------------------------------------------------------------
-Libraries have been installed in:
-   /usr/local/gcc-7.4.0/lib/../lib64
+   Libraries have been installed in:
+      /usr/local/gcc-6.4.0/lib/../lib64
 
 If you ever happen to want to link against installed libraries
 in a given directory, LIBDIR, you must either use libtool, and
