@@ -1,5 +1,5 @@
 # CentOS 7-DeepLearning
-## Install Python3.6
+## Install Python 3.6.7
 > using root to install python
 1. cd /usr/src
 2. wget https://www.python.org/ftp/python/3.6.7/Python-3.6.7.tgz
