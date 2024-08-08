@@ -25,7 +25,7 @@
 6. mkdir build_gcc-6.4.0
 7. cd build_gcc-6.4.0
 8. ../gcc-6.4.0/configure --prefix=/usr/local/gcc-6.4.0 --disable-multilib
-9. make
+9. make -j4
 10. make install
 11. cd /usr/bin
 12. ln -s /usr/local/gcc-6.4.0/bin/gcc gcc640
